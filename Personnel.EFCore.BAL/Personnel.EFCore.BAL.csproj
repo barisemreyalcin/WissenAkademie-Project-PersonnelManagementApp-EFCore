@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Personnel.EFCore.DAL\Personnel.EFCore.DAL.csproj" />
+    <ProjectReference Include="..\Personnel.EFCore.Domain\Personnel.EFCore.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
